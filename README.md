@@ -6,12 +6,19 @@ GitHub Link:
 https://github.com/Branth1/Project3
 ## Description
 
-This is a study of the data collected by the Bulk Meteorology Instrument Package which measuresa variety of parameters that characterize weather conditions above the sea surface at two different sites from the OOI database. 
+This is a study of the data collected by the United States Geological Survey group (USGS) from January 01 2010 through February 22, 2020. 
 
-The data sets being studied and compared are the wind speeds and precipitation rates for two different sites. The following analysis will look at the data from these sites and determine if there is any relation between the two. Can we use data from one site to predict data at the other? 
+The USGS collects a wide range of data on earthquakes, faults and crustal deformation to increase our understanding of earthquake source processes, occurrence, and effects; and synthesize this knowledge into probabilistic seismic hazard assessments, aftershock forecasts, and ground-shaking scenarios for anticipated major earthquakes.
 
-It should be noted that there may exist an error in the Correlated analysis of the Oregon Shelf Surface Mooring Data. Although attempts have been made to verify this data, further testing would be needed to confirm or disprove the accuracy of the analysis.
+The data sets being studied and compared are the magnitudes compared to time and location. The following analysis will look at the data from first a wide range pacific ocean view coordinate with a coordinate window:
 
+longitude range (-152.93 to -115.66) and latitude range (33.45 to 56.47).
+
+This is followed by a focus on the affects measured in April 2015 and concluded with a focus on the divergent and transform tendencies as seen around the juan de fuca plate. This coordinate window is:
+
+longitude range (-135 to -115) and latitude range (40 to 55).
+
+For a closer look at the data analysis please visit the link to the code shown above.
 ## Background
 
 **The questions we are looking to solve are as follows:**
