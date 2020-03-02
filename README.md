@@ -6,7 +6,7 @@ GitHub Link:
 https://github.com/Branth1/Project3
 ## Description
 
-This is a study of the data collected by the United States Geological Survey group (USGS) from January 01 2010 through February 22, 2020. 
+This is a study of the data collected by the United States Geological Survey group (USGS) from January 01 2010 through February 22, 2020. All seismic data being observed has been filtered with a minimum magnitude of 2.5. 
 
 The USGS collects a wide range of data on earthquakes, faults and crustal deformation to increase our understanding of earthquake source processes, occurrence, and effects; and synthesize this knowledge into probabilistic seismic hazard assessments, aftershock forecasts, and ground-shaking scenarios for anticipated major earthquakes.
 
@@ -18,45 +18,41 @@ This is followed by a focus on the affects measured in April 2015 and concluded 
 
 longitude range (-135 to -115) and latitude range (40 to 55).
 
-For a closer look at the data analysis please visit the link to the code shown above.
+For a closer look at the work being conducted by the USGS or for further information, their website can be found in the reference section below.
 ## Background
 
 **The questions we are looking to solve are as follows:**
 
-        1-Is there any relation between the windspeed and rain rate at each site?
+        1-Across what geographic area are we able to observe earthquake data in the map?
 
-        2-Is there any correlation between the wind at one and the other?
+        2-Why are most of the earthquakes in that area?
 
-        3-Is there any correlation between the rain at one site and the other?
+        3-What is the range and magnitude of the earthquake size in this area?
 
-        4-What patterns if any can be seen between the average rain rate at both sites?
+        4-Where are earthquakes located in April 2015 and what event can be linked to these? 
 
-        5-What patterns if any can be seen between the average wind speed at both sites?
+        5-What patterns are observed in magnitude and location over time for a transform and divergent boundary region?
 
-**The sites and dates for recording are as follows:**
+**The Data used for analysis is:**
 
-Oregon Shelf Surface Mooring
+Initial Bulk Data set:
 
-Oregon Offshore Surface Mooring
+https://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2010-01-01%2000:00:00&endtime=2020-02-22%2023:59:59&maxlatitude=56.472&minlatitude=33.445&maxlongitude=-115.664&minlongitude=-152.93&minmagnitude=2.5&orderby=time
 
-All Data Was Collected Between Jan 01, 2019 and Jan 01, 2020
+Refined Juan De Fuca Plate Data set:
 
-For additional information on the instruments used please see the link to the code above.
+https://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2010-01-01%2000:00:00&endtime=2020-02-22%2023:59:59&maxlatitude=55&minlatitude=40&maxlongitude=-115&minlongitude=-135&minmagnitude=2.5&orderby=time
+
+All Data Was Collected Between Jan 01, 2010 and Feb 22, 2020
+
+For additional information on the analysis used please see the link to the code above.
 
 ## Solution/Results
 
-The data was analyzed utilizing the code found in the link above. First the data was requested from the OOI website and the rain rate and wind speed for each site were analyzed:
+The data was analyzed utilizing the code found in the link above. First the bulk data set was requested and the magnitude was plotted against time.
 **Initial Data Analysis**
-Note: For the following graphs, the vertical bands have been added to further clarify trends at each site:
+Note: For the following graphs, a screen shot is shown.:
 
-        Blue = No wind or Rain
-
-        Green = Wind but No Rain
-
-        Red = Rain and No Wind
-
-        Yellow = Rain and Wind
-        
 **Oregon Shelf Surface Mooring**
 
 ![](https://github.com/Branth1/Project2/blob/master/Oregon%20Shelf%20Data.png?raw=true)
