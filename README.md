@@ -53,7 +53,7 @@ The data was analyzed utilizing the code found in the link above. First the bulk
 
 **Initial Data Analysis**
 
-Note: For the following graphs, a screen shot is shown. To view the interactive map please visit the link to the colab page above. In all graphs, the magnitude of earthquake is referenced by the size of the marker.
+Note: For the following graphs, a screen shot is shown. To view the interactive map please visit the link to the colab page above. In all maps, the magnitude of earthquake is referenced by the size of the marker.
 
 **Bulk Data Scatter Plot**
 
