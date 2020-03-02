@@ -51,35 +51,33 @@ For additional information on the analysis used please see the link to the code 
 
 The data was analyzed utilizing the code found in the link above. First the bulk data set was requested and the magnitude was plotted against time.
 **Initial Data Analysis**
-Note: For the following graphs, a screen shot is shown.:
+Note: For the following graphs, a screen shot is shown. To view the interactive map please visit the link to the colab page above. In all graphs, the magnitude of earthquake is referenced by the size of the marker.
 
-**Oregon Shelf Surface Mooring**
+**Bulk Data Scatter Plot**
 
-![](https://github.com/Branth1/Project2/blob/master/Oregon%20Shelf%20Data.png?raw=true)
+![](https://github.com/Branth1/Project3/blob/master/Bulk%20Scatter.png?raw=true)
 
-**Oregon Offshore Surface Mooring**
+**Bulk Data Map**
 
-![](https://github.com/Branth1/Project2/blob/master/Oregon%20Offshore%20Data.png?raw=true)
+![](https://github.com/Branth1/Project3/blob/master/Bulk%20Map.png?raw=true)
 
-**Cross-Correlation of Wind Speed**
+**Interactive Map**
 
-Note: Max Lag = -2971 @ Correlation Value = 0.0857
+Note: In the live version, the years visible can be filtered by clicking on the legend. Hovering over the indicator will display the coordinates, date and magnitude.
 
-![](https://github.com/Branth1/Project2/blob/master/Coorelation%20Wind%20(lag-2971)(0.0857).png?raw=true)
+![](https://github.com/Branth1/Project3/blob/master/Interactive%20Map.png?raw=true)
 
-**Cross-Correlation of Rain Rate**
+**April 2015 Map**
 
-Note: Max Lag = 1 @ Correlation Value = 0.4306
+![](https://github.com/Branth1/Project3/blob/master/April%202015.png?raw=true)
 
-![](https://github.com/Branth1/Project2/blob/master/Coorelation%20Rain(0.4306)lag(1).png?raw=true)
+**Juan De Fuca Plate Scatter Plot**
 
-**Monthly Average Wind Speed**
+![](https://github.com/Branth1/Project3/blob/master/Juan%20De%20Fuca%20Scatter.png?raw=true)
 
-![](https://github.com/Branth1/Project2/blob/master/Average%20Wind.png?raw=true)
+**Juan De Fuca Plate Map Plot**
 
-**Monthly Average Rain Rate**
-
-![](https://github.com/Branth1/Project2/blob/master/Average%20Rain.png?raw=true)
+![](https://github.com/Branth1/Project3/blob/master/Juan%20Map.png?raw=true)
 
 ## Conclusions
 From the analysis conducted, the following conclusions were made:
@@ -99,5 +97,10 @@ There does not appear to be any relation between the time lag for wind speed and
 
 ## References
 
-Data was downloaded from OOI:
-https://oceanobservatories.org
+Data was downloaded from USGS:
+https://earthquake.usgs.gov
+
+Map Images are from:
+https://www.openstreetmap.org
+
+April 2015 Earthquake information:
