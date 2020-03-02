@@ -50,6 +50,7 @@ For additional information on the analysis used please see the link to the code 
 ## Solution/Results
 
 The data was analyzed utilizing the code found in the link above. First the bulk data set was requested, and the magnitude was plotted against time.
+
 **Initial Data Analysis**
 Note: For the following graphs, a screen shot is shown. To view the interactive map please visit the link to the colab page above. In all graphs, the magnitude of earthquake is referenced by the size of the marker.
 
