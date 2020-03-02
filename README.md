@@ -6,15 +6,15 @@ GitHub Link:
 https://github.com/Branth1/Project3
 ## Description
 
-This is a study of the data collected by the United States Geological Survey group (USGS) from January 01 2010 through February 22, 2020. All seismic data being observed has been filtered with a minimum magnitude of 2.5. 
+This is a study of the data collected by the United States Geological Survey group (USGS) from January 01, 2010 through February 22, 2020. All seismic data being observed has been filtered with a minimum magnitude of 2.5. 
 
 The USGS collects a wide range of data on earthquakes, faults and crustal deformation to increase our understanding of earthquake source processes, occurrence, and effects; and synthesize this knowledge into probabilistic seismic hazard assessments, aftershock forecasts, and ground-shaking scenarios for anticipated major earthquakes.
 
-The data sets being studied and compared are the magnitudes compared to time and location. The following analysis will look at the data from first a wide range pacific ocean view coordinate with a coordinate window:
+The data sets being studied and compared are the magnitudes compared to time and location. The following analysis will look at the data from first a wide range Pacific Ocean view coordinate with a coordinate window:
 
 longitude range (-152.93 to -115.66) and latitude range (33.45 to 56.47).
 
-This is followed by a focus on the affects measured in April 2015 and concluded with a focus on the divergent and transform tendencies as seen around the juan de fuca plate. This coordinate window is:
+This is followed by a focus on the affects measured in April 2015 and concluded with a focus on the divergent and transform tendencies as seen around the Juan De Fuca Plate. This coordinate window is:
 
 longitude range (-135 to -115) and latitude range (40 to 55).
 
@@ -49,7 +49,7 @@ For additional information on the analysis used please see the link to the code 
 
 ## Solution/Results
 
-The data was analyzed utilizing the code found in the link above. First the bulk data set was requested and the magnitude was plotted against time.
+The data was analyzed utilizing the code found in the link above. First the bulk data set was requested, and the magnitude was plotted against time.
 **Initial Data Analysis**
 Note: For the following graphs, a screen shot is shown. To view the interactive map please visit the link to the colab page above. In all graphs, the magnitude of earthquake is referenced by the size of the marker.
 
@@ -82,13 +82,15 @@ Note: In the live version, the years visible can be filtered by clicking on the 
 ## Conclusions
 From the analysis conducted, the following conclusions were made:
 
-* Looking at the bulk data we can see that there is quite a bit of activity consistently throughout the past 10 years. Looking at the map gives a sense of the plate boundaries that can be found near the pacific coast. Most of the data is seen along the plate boundaries for the juan de fuca plate, pacific plate, gorda plate, and north american plate. 
+* Looking at the bulk data we can see that there is quite a bit of activity consistently throughout the past 10 years. Looking at the map gives a sense of the plate boundaries that can be found near the pacific coast. Most of the data is seen along the plate boundaries for the Juan De Fuca Plate, Pacific Plate, Gorda Plate, and North American Plate. 
 
-* Comparing all of these data points we find that the range of data is from a magnitude 2.5 up to maximum 7.9. The average over the ten year period is a magnitude 3.07.
+* Comparing all of these data points we find that the range of data is from a magnitude 2.5 up to maximum 7.9. The average over the ten-year period is a magnitude 3.07.
 
-* In the map of April 2015 most of the data is seen to be along the north american plate fault line that runs through california. The average for this time is at 3.05 and the maximum is a 6.2. The level of activity is quite high with about 100 data points recorded during this period. At this time there was one of the worst earthquakes we have seen in recent years. April 25, 2015, Nepal experienced a magnitude 7.8 earthquake that took the lives of nearly 9,000 people. The aftershocks and affects of this earthquake are visible through the seismic waves being recorded in the map shown. 
+* In the map of April 2015 most of the data is seen to be along the North American Plate fault line that runs through California. The average for this time is at 3.05 and the maximum is a 6.2. The level of activity is quite high with about 100 data points recorded during this period. At this time there was one of the worst earthquakes we have seen in recent years. April 25, 2015, Nepal experienced a magnitude 7.8 earthquake that took the lives of nearly 9,000 people. The aftershocks and effects of this earthquake are visible through the seismic waves being recorded in the map shown. 
 
-* Next, the area of highest interest is focused on the transform and divergent boundaries seen just off the coast. In this image around the Juan De Fuca plate, the transform boundaries are seen running horizontally along the map and the divergent boundary can be seen running vertically at about -127.5 degrees. 
+* Next, the area of highest interest is focused on the transform and divergent boundaries seen just off the coast. In this image around the Juan De Fuca Plate, the transform boundaries are seen running horizontally along the map and the divergent boundary can be seen running vertically at about -127.5 degrees. This map combined with the interactive map allows us to look for any possible trends between magnitude and boundary type. Upon closer review it begins to look like there is more activity along the transform boundaries over time and typically a larger magnitude.
+
+* Earthquakes can be one of the most dangerous natural disasters we experience. Living in the pacific northwest we see a significant amount of seismic activity. Unlike other disasters, it is nearly impossible to warn the public before an earthquake happens. Through further research and data analysis we can attempt to better understand the movements of our earth's tectonic plates and hopefully one day be able to predict earthquakes before they happen and improve building designs to limit the economic and physical impact of large magnitude earthquakes. 
 
 
 ## References
@@ -100,3 +102,4 @@ Map Images are from:
 https://www.openstreetmap.org
 
 April 2015 Earthquake information:
+https://www.worldvision.org/disaster-relief-news-stories/2015-nepal-earthquake-facts
